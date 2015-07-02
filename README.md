@@ -1,4 +1,4 @@
 # xiaomi-r1d-openwrt
-Use OpenWrt on XiaoMi R1D Route
+在小米路由（R1D）上使用原生openwrt的luci
 
 #Install
