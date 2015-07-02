@@ -1,0 +1,170 @@
+body {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555;
+    background: #f2f2f2;
+}
+input,button {
+    outline: none;
+}
+.mod-errtype {
+    width: 1000px;
+    margin: 5px auto;
+    padding: 30px 0;
+    background: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+.mod-errtype .content {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 0 90px;
+    min-height: 65px;
+    _height: 65px;
+    text-align: left;
+    background: url(../img/ico_page.png) no-repeat 0 0;
+}
+.mod-errtype .content h1 {
+    font-size: 18px;
+    margin: 0;
+    padding-top: 10px;
+}
+.mod-errtype .content p {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+}
+.mod-errtype .btn {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #3399ff;
+}
+.mod-httperr {
+    width: 920px;
+    background: #fff;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+}
+.mod-httperr .searchbox {
+    overflow: hidden;
+    zoom:1;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-bottom: 40px;
+}
+.mod-httperr .searchbox p {
+    text-align: left;
+}
+.mod-httperr .searchbox .keyword,
+.mod-httperr .searchbox button {
+    margin: 0;
+    padding: 0;
+    border: 1px #ccc solid;
+    background: #fff;
+    float: left;
+    height: 38px;
+    line-height: 38px;
+    font-size: 14px;
+    box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+.mod-httperr .searchbox .keyword {
+    width: 440px;
+    padding: 0 5px;
+}
+.mod-httperr .searchbox button {
+    width: 90px;
+    height: 38px;
+    text-align: center;
+    margin-left: -1px;
+    position: relative;
+    background: #f2f2f2;
+}
+
+.mod-httperr .recomsites,
+.mod-httperr .hotwords {
+    text-align: left;
+    overflow: hidden;
+    zoom:1;
+}
+.mod-httperr .recomsites h2,
+.mod-httperr .hotwords h2 {
+    font-size: 14px;
+    height: 22px;
+    line-height: 22px;
+    margin: 0;
+    background: #fff;
+    padding: 0 10px 0 0;
+    position: relative;
+    z-index:2;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+}
+.mod-httperr .recomsites .hr,
+.mod-httperr .hotwords .hr {
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    border-top: 1px #ddd solid;
+    position: relative;
+    margin-top: -11px;
+}
+.mod-httperr .recomsites ul,
+.mod-httperr .recomsites li,
+.mod-httperr .hotwords ul,
+.mod-httperr .hotwords li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mod-httperr .recomsites ul,
+.mod-httperr .hotwords ul {
+    overflow: hidden;
+    zoom:1;
+    padding-top: 20px;
+    width: 1000px;
+}
+.mod-httperr .recomsites li {
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-right: 4px;
+}
+.mod-httperr .recomsites li img {
+    width: 150px;
+}
+.mod-httperr .hotwords {
+    margin-top: 15px;
+}
+.mod-httperr .hotwords li {
+    float: left;
+    width: 20%;
+}
+.mod-httperr .hotwords li a,
+.mod-httperr .hotwords li a:hover {
+    color: #666;
+    text-decoration: none;
+}
+.mod-httperr .hotwords li img {
+    display: block;
+}
+.ft {
+    padding: 40px 0 0;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+}

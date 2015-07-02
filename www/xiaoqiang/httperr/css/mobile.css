@@ -1,0 +1,161 @@
+body {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.5;
+    background: #fff;
+}
+.mod-errtype {
+    margin: 0 25px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.mod-errtype .content {
+    padding: 37px 0 0 0;
+}
+.mod-errtype .content h1 {
+    font-size: 18px;
+    margin: 0;
+    margin-top: 10px;
+}
+.mod-errtype .reason p {
+    font-size: 12px;
+    color: #888;
+    margin: 0;
+}
+.mod-errtype .btn {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin: auto;
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    background: #3399ff;
+}
+
+
+.mod-httperr {
+    margin: 35px;
+}
+.mod-httperr .searchbox {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+.mod-httperr .searchbox input,
+.mod-httperr .searchbox button {
+    box-sizing:border-box;
+    -moz-box-sizing:border-box; /* Firefox */
+    -webkit-box-sizing:border-box; /* Safari */
+    margin: 0;
+    padding: 5px 0;
+    height: 32px;
+    line-height: 22px;
+    font-size: 14px;
+    border: 1px #ccc solid;
+    background: #fff;
+}
+.mod-httperr .searchbox .logo {
+    display: none;
+}
+.mod-httperr .searchbox h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.mod-httperr .searchbox form {
+    display: -webkit-flex;
+    display: flex;
+}
+.mod-httperr .searchbox .keyword {
+    -webkit-flex: 1;
+            flex: 1;
+    padding-left: 20px;
+    border-radius: 3px 0 0 3px;
+    border-right: 0;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 11px 11px;
+    background-position: 5px center;
+}
+.mod-httperr .searchbox button {
+    text-align: center;
+    width: 55px;
+}
+.mod-httperr .searchbox button {
+    border-radius: 0 3px 3px 0;
+}
+
+.mod-httperr .recomsites {
+    margin-top: 30px;
+}
+.mod-httperr .recomsites h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.mod-httperr .recomsites ul {
+    overflow: hidden;
+}
+.mod-httperr .recomsites ul,
+.mod-httperr .recomsites ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mod-httperr .recomsites ul li {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 85px;
+}
+.mod-httperr .recomsites ul li img {
+    display: block;
+    width: 100%;
+    max-width: 50px;
+    max-height: 50px;
+    margin: auto;
+    margin-bottom: 2px;
+}
+.mod-httperr .recomsites ul li a {
+    color: #555;
+    font-size: 12px;
+    text-decoration: none;
+}
+.mod-httperr .hotwords {
+    margin-top: 30px;
+}
+.mod-httperr .hotwords h2 {
+    font-size: 14px;
+    font-weight: normal;
+}
+.mod-httperr .hotwords ul,
+.mod-httperr .hotwords ul li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.mod-httperr .hotwords ul {
+    overflow: hidden;
+}
+.mod-httperr .hotwords ul li {
+    float: left;
+    width: 50%;
+    padding-bottom: 10px;
+}
+.mod-httperr .hotwords li a,
+.mod-httperr .hotwords li a:hover {
+    color: #888;
+    text-decoration: none;
+}
+.ft {
+    margin: 0 25px;
+    border-top: 1px #d9d9d9 solid;
+    padding: 10px;
+    text-align: center;
+    color: #ccc;
+    font-size: 12px;
+}

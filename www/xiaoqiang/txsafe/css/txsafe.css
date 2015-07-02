@@ -1,0 +1,62 @@
+html,body {
+    color: #fff;
+    background: #ec4949;
+}
+.mod-txsafe {
+    width: 330px;
+    margin: auto;
+    padding-top: 80px;
+}
+.mod-txsafe .link,
+.mod-txsafe .link:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+.mod-txsafe .pic {
+    display: block;
+    margin: auto;
+}
+.mod-txsafe .desc {
+    padding-top: 40px;
+}
+.mod-txsafe .desc h1 {
+    font-size: 28px;
+    padding-bottom: 15px;
+    font-weight: normal;
+}
+.mod-txsafe .btns {
+    padding: 40px 0;
+}
+.mod-txsafe .btns .l {
+    float: left;
+}
+.mod-txsafe .btns .r {
+    float: right;
+}
+.mod-txsafe .powered {
+    padding: 15px 0;
+    text-align: center;
+    opacity: .5;
+    filter: alpha(opacity=50);
+}
+
+/*mobile vertical-align center*/
+@media screen and (max-width: 480px) {
+    .mod-txsafe .btns .btn {
+        width: 48%;
+    }
+    .btn span {
+        min-width:0;
+    }
+    .mod-txsafe {
+        width: auto;
+        margin: 0 20px;
+        padding-top: 40px;
+    }
+    .mod-txsafe .pic {
+        width: 90px;
+    }
+    .mod-txsafe .desc h1 {
+        font-size: 24px;
+    }
+}
